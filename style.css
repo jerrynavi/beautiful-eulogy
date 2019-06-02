@@ -1,0 +1,147 @@
+@import url("proxima.otf");
+
+body {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+#navbar {
+    background-color: #ffffff;
+    position: fixed;
+    top: -200px;
+    width: 100%;
+    display: block;
+    transition: top 1.5s;
+}
+
+.arrow a {
+    color: #ffffff;
+    display: flex;
+    align-self: flex-end
+}
+
+.arrow a:hover {
+    color: #ffffff
+}
+
+.banner {
+    background: url("./img/Artist1.jpg");
+    /* min-height: 600px; */
+    padding: 3em;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    display: flex;
+    align-items: flex-end;
+    /* font-family: "Proxima Nova Th"; */
+}
+
+
+.text-container h1 {
+    font-size: 3em;
+    /* (16x2)px = 200%;  */
+}
+
+.container-fluid {
+    /* margin-top: -5px; */
+    background-color: rgb(225, 226, 230);
+    text-align: justify;
+    color: grey;
+}
+
+#box1,
+#box2,
+#box3 {
+    padding: 5px;
+    background: #ffffff;
+}
+
+
+.albums-grid a:hover {
+    background-color: #000000;
+}
+
+.a a {
+    text-decoration-line: underline
+}
+
+.a a:hover {
+    text-decoration-line: underline;
+    color: #000000
+}
+
+#cont {
+    color: #333;
+
+}
+
+/* .gap {
+    margin: 40px;
+    display: block;
+} */
+
+#btn {
+    border-radius: 0;
+    background-color: #000000;
+    border: none;
+    width: 18em;
+    padding: 0.7em;
+}
+
+.social1>ul>li {
+    display: inline;
+}
+
+.social1 a {
+    color: rgb(168, 163, 163);
+}
+
+.bfooter {
+    background-color: rgb(24, 24, 24);
+}
+
+h4 {
+    color: #ffffff
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+footer>ul>li {
+    display: inline;
+
+}
+
+.bfooter a {
+    display: inline;
+    color: #94743e;
+    text-decoration-line: none;
+    margin: 30px;
+}
+
+a:hover {
+    color: #94743e;
+    text-decoration-line: none;
+}
+
+.social>ul>li {
+    display: inline;
+}
+
+
+.ffooter {
+    color: #ffffff;
+    font-size: 1em;
+}
+
+.ffooter a {
+    text-decoration-line: none;
+    color: #94743e
+}
